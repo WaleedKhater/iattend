@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321294653189",
+    "project_id": "iattend-ba039",
+    "storage_bucket": "iattend-ba039.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321294653189:android:9c3667d306a4160459c96c",
+        "android_client_info": {
+          "package_name": "com.example.iattend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321294653189-avigl4v7c47lup83dd70uiledvsu5t95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPWYRsR5W9b4nel_iA47rjyX9hPGUMh8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321294653189-avigl4v7c47lup83dd70uiledvsu5t95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
