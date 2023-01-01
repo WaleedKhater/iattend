@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:iattend/modules/report/report.dart';
 
+import '../abbsence/abbsence.dart';
+
 class selction extends StatelessWidget {
   var col = Color.fromARGB(255, 0, 0, 0);
   void selectSecreen(BuildContext c, int n) {
@@ -65,7 +67,9 @@ class selction extends StatelessWidget {
                   child: OutlinedButton(
                     
                       style: btnStyle,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (_)=>abbsence()));
+                      },
                       child: const Text("Take Absence",
                           style: TextStyle(
                             fontSize: 20,
